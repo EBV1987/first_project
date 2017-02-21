@@ -1,0 +1,119 @@
+.header
+{
+	background-color: grey;
+	color: blue;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 100px;
+}
+
+.navigation
+{
+	background-color: grey;
+	color: blue;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 30px;
+}
+
+.inline 
+{
+	border: 1px solid black;
+	float: left;
+	width: 165px;
+	text-align: center;
+	font-size: 150%;
+	margin-left: 5px;
+}
+
+.show_menu
+{
+	display: block;
+}
+
+.hide_menu
+{
+	display: none;
+}
+
+.dropdown_menu
+{
+	position: absolute;
+	text-align: left;
+	left: 40px;
+}
+
+.menu
+{
+	background-color: grey;
+	color: blue;
+	float: left;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 300px;
+	width: 20%;
+}
+
+.actual_news
+{
+	background-color: grey;
+	color: blue;
+	float: left;
+	padding: 10px;
+	border: 1px solid black;
+	height: 173px;
+	width: 20%;
+	
+}
+
+.content
+{
+	background-color: grey;
+	color: blue;
+	float: right;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid green;
+	height: 500px;
+	width: 74.5%;
+}
+
+.footer
+{
+	background-color: grey;
+	color: blue;
+	padding: 10px;
+	border: 1px solid red;
+	
+}
+
+body, html
+{
+	margin: 0px; padding: 0px;
+}
+
+.wrap
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ddd;
+	padding: 10px;
+}
+
+.test
+{
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	overflow: auto; /* добавляет полосу прокрутки при переполнении размера*/
+
+	position: fixed; /* Фиксированное положение */
+	left: 0; top: 50%; /* Положение */
+
+	border: 1px solid green;
+	background-color: grey;
+}
