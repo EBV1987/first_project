@@ -9,8 +9,12 @@ function openMenu()
 		class_id.className = "dropdown_menu show_menu"
 	}
 }
-	
-	
+
+function calculeited()
+{
+	var a = '11111111111111111111111111111111';
+	alert(a.length);
+}	
 
 
 /*var years = confirm("How old are you?");

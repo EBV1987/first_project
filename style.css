@@ -22,10 +22,12 @@
 {
 	border: 1px solid black;
 	float: left;
-	width: 165px;
+	width: 19%; //165px;
 	text-align: center;
 	font-size: 150%;
 	margin-left: 5px;
+
+	//background-color: red;
 }
 
 .show_menu
@@ -45,6 +47,13 @@
 	left: 40px;
 }
 
+/*.body_page
+{
+	background-color: green;
+	//float: left;
+	//overflow: auto;
+}
+*/
 .menu
 {
 	background-color: grey;
@@ -76,9 +85,10 @@
 	float: right;
 	padding: 10px;
 	margin-bottom: 5px;
+	margin-left: 5px;
 	border: 1px solid green;
 	height: 500px;
-	width: 74.5%;
+	width: 74.55%;
 }
 
 .footer
@@ -102,6 +112,7 @@ body, html
 	margin-right: auto;
 	background: #ddd;
 	padding: 10px;
+	
 }
 
 .test
