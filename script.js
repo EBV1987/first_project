@@ -28,7 +28,7 @@ function fib(n)
 
 alert (fib(6) );
 
-
+/*https://github.com/EBV1987/first_project*/
 
 /*function sayHi() {
   alert( "Привет" );
