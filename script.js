@@ -10,11 +10,38 @@ function openMenu()
 	}
 }
 
-function calculeited()
+function fib(n)
 {
-	var a = '11111111111111111111111111111111';
-	alert(a.length);
-}	
+	for (var i = n; i>=1;i--)
+	{
+
+		if (i!=1 && i!=2)
+		{
+			var x = (fib(i-1)+fib(i-2));
+			var y = x +" ,";
+			return y;
+		}else{
+			return 1;
+		}
+	}	
+}
+
+alert (fib(6) );
+
+
+
+/*function sayHi() {
+  alert( "Привет" );
+}
+var func = sayHi;    // (2)
+func(); // Привет    // (3)
+*/
+/*
+sayHi = null;
+sayHi();             // ошибка (4)
+*/
+
+//alert( sayHi ); // выведет код функции	
 
 
 /*var years = confirm("How old are you?");
@@ -23,3 +50,4 @@ alert( "You are so old - " + years );
 
 //alert( alert(1) || 2 || alert(3) ); // ????
 //console.log( console.log(1) || 2 || console.log(3) );
+//https://github.com/EBV1987/first_project
