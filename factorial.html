@@ -1,0 +1,11 @@
+<script>
+    function factor(n) {
+        if (n > 1) {
+            return (n * factor(n - 1));
+        } else {
+            return 1;
+        }
+    }
+    var x = factor(5);
+    console.log(x);
+</script>
